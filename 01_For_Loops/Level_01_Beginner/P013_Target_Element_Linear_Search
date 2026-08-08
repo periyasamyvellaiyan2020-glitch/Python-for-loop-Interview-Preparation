@@ -1,0 +1,16 @@
+#Given a list of integers and a target value K, use a for loop to find the first zero-based index of K. Print the
+#index if found, or -1 if K is not present. Exit the loop immediately once K is located. 
+
+a=[5,54,94,8,948,4,814,54,5]
+k=94
+count=0
+found= False
+for i in a:
+    if i==k:
+        print(count)
+        found=True
+        break
+    count+=1
+if found==False:
+    print(-1)
+ 
