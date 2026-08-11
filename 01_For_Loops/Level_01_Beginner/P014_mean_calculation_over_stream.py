@@ -7,5 +7,5 @@ sum=0
 for i in a:
     sum+=i
     count+=1
-avg=sum//count
+avg=sum/count
 print(avg)
