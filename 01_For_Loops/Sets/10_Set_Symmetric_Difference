@@ -1,0 +1,39 @@
+
+#Problem 09 — Set Symmetric Difference
+a = {10, 20, 30, 40}
+b = {10, 30, 50, 60}
+combined=set()
+common=set()
+Symmetric_Difference=set()
+for i in a:
+    if True:
+        combined.add(i)
+
+for i in b:
+    if True:
+        combined.add(i)
+print(combined)
+
+for a_element in a:
+    found=False
+    for b_element in b:
+        if a_element == b_element:
+            found=True
+            break
+    if found==True:
+        common.add(a_element)
+print(common)
+
+for combined_element in combined:
+    found=False
+    for common_element in common:
+        if common_element==combined_element:
+            found=True
+            break
+    if found==False:
+        Symmetric_Difference.add(combined_element)
+print(Symmetric_Difference)
+
+
+
+
