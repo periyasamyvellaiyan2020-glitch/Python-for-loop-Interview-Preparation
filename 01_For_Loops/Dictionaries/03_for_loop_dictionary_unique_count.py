@@ -8,4 +8,11 @@ for i in numbers:
         repeat[i]=1
     else:
         repeat[i]=repeat[i]+1
-print(repeat)
+print(counter(numbers))
+
+
+# numbers = [5, 10, 5, 20, 10, 5, 20]
+
+# print(numbers.count(5))
+# print(numbers.count(10))
+# print(numbers.count(20))
