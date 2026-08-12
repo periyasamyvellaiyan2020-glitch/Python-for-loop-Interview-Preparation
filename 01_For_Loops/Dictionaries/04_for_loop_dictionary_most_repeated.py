@@ -8,8 +8,23 @@ for i in numbers:
         repeat[i]=repeat[i]+1
 print(repeat)
 
-get_max=set()
+get_max=[]
 for value in repeat.values():
-    get_max.add(value)
-    print(get_max)
+    get_max.append(value)
+print(get_max)
 
+higher=get_max[0]
+for i in get_max:
+    if i>higher:
+        higher=i
+print(higher)
+
+for number, count in repeat.items():
+    if count == higher:
+        print(f"The most repeated number is:{number}")
+
+# repeat = {5: 3, 10: 2, 20: 2}
+
+# number = max(repeat, key=repeat.get)
+
+# print(number)
