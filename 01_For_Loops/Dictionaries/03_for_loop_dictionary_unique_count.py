@@ -8,7 +8,7 @@ for i in numbers:
         repeat[i]=1
     else:
         repeat[i]=repeat[i]+1
-print(counter(numbers))
+print(repeat)
 
 
 # numbers = [5, 10, 5, 20, 10, 5, 20]
