@@ -9,6 +9,6 @@ marks = {
 
 multiple={}
 for subject,score in marks.items():
-    score=score*score
+    score=score*2
     multiple[subject]=score
 print(multiple)

@@ -1,8 +1,8 @@
-#Problem 10 — Find the Highest Mark AND Student's Name
+#Problem 09 — Find the Highest Mark AND Student's Name
 marks = {
     "Math": 85,
     "Science": 46,
-    "English": 725,
+    "English": 72,
     "Python": 91,
     "SQL": 64
 }
