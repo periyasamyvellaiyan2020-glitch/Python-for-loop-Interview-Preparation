@@ -1,4 +1,4 @@
-#Problem 09 — Find the Average of Dictionary Values
+#Problem 08 — Find the Average of Dictionary Values
 marks = {
     "Math": 85,
     "Science": 46,
