@@ -10,3 +10,6 @@ for k_element in k.copy():
     if found==False:
         a.add(k_element)
 print(a)
+
+
+#a.update(k)
