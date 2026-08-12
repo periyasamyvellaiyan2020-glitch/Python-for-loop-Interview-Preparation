@@ -5,13 +5,13 @@ b = {10, 30, 50, 60}
 combined=set()
 common=set()
 Symmetric_Difference=set()
+
 for i in a:
-    if True:
         combined.add(i)
 
 for i in b:
-    if True:
         combined.add(i)
+        
 print(combined)
 
 for a_element in a:

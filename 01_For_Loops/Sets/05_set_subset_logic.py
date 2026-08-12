@@ -7,8 +7,7 @@ for a_element in a:
     for b_element in b:
         if a_element==b_element:
             count+=1
-            break add.
-            
+            break
 if size==count:
     print('a is subset of b')
 else:

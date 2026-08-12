@@ -11,7 +11,7 @@ if len(a)>len(b):
     if len(b)==count:
         print("a is the super set")
 if len(a)==len(b):
-    print('neither is a superset.')
+    print('neither is a superset')
 else:
     count=0
     for a_element in a:
