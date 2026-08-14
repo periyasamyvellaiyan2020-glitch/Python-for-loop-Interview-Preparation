@@ -18,3 +18,19 @@ for score in marks.values():
     if score > avg:
         above_avg+=1
 print(above_avg)
+
+
+marks = {
+    "Math": 85,
+    "Science": 46,
+    "English": 72,
+    "Python": 31,
+    "SQL": 64
+}
+
+# avg = sum(marks.values()) / len(marks)
+
+# above_avg = sum(score > avg for score in marks.values())
+
+# print(f"Average: {avg}")
+# print(f"Above average: {above_avg}")
